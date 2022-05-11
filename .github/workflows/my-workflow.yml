@@ -18,3 +18,9 @@ jobs:
               , repo: context.repo.repo
               , body: "Yay."
             });
+
+            github.projects.createCard({
+                column_id: 186740348
+              , content_id: context.payload.issue.id
+              , content_type: "Issue"
+            });
