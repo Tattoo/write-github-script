@@ -1,4 +1,4 @@
-Name: Learning Github Script
+name: Learning Github Script
 
 on:
   issues:
